@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coaching Center</title>
+    <style>
+        /* Reset some default styles for better consistency */
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            background-color: #f0f0f0; /* Light gray background */
+            color: #333; /* Dark text color */
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #fff; /* White header background */
+            color: #333; /* Dark text color */
+            padding: 20px 0;
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            padding-left: 20px;
+        }
+
+        .logo img {
+            height: 50px; /* Make the logo a little bigger */
+        }
+
+        .menu {
+            display: flex;
+            gap: 15px; /* Reduce the gap between menu items */
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 1.4rem; /* Make the menu items a little smaller */
+            padding: 10px 15px; /* Reduce padding */
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu a:hover {
+            background-color: #f0f0f0; /* Lighter background on hover */
+        }
+
+        /* Hero Section Styles */
+        .hero {
+            text-align: center;
+            padding: 60px 0;
+            background-color: #3cc5c6; /* Updated hero section background color */
+            color: #fff; /* White text color */
+        }
+
+        .hero h1 {
+            font-size: 2.8rem; /* Slightly smaller heading size */
+            margin-bottom: 20px;
+        }
+
+        .hero .description {
+            font-size: 1.6rem; /* Slightly smaller text size */
+            margin-bottom: 30px;
+        }
+
+        .primary-button, .secondary-button {
+            display: inline-block;
+            padding: 12px 24px; /* Increase button padding */
+            font-size: 1.6rem;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .primary-button {
+            background-color: #f84465; /* Updated primary button background color */
+            color: #fff;
+            margin-right: 10px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            border: none;
+        }
+
+        .primary-button:hover {
+            background-color: #ca3954; /* Updated primary button hover color */
+        }
+
+        /* Additional Paragraphs and Address */
+        .additional-info {
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .additional-info p {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+        }
+
+        .contact-address {
+            font-size: 1.2rem;
+            color: #9dc83e; /* Updated color for contact details */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="coaching-logo.png" alt="Logo">
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Courses</a>
+                <a href="#">About</a> <!-- Added 'About' menu item -->
+                <a href="#">Services</a> <!-- Added 'Services' menu item -->
+                <a href="#">Blog</a> <!-- Added 'Blog' menu item -->
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to Our Coaching Center</h1>
+            <p class="description">Achieve your educational goals with our expert coaching and guidance.</p>
+            <a href="#" class="primary-button">Enroll Now</a>
+        </section>
+
+        <div class="additional-info">
+            <p>Join us today and start your journey towards success.</p>
+            <p>We are located at 123 Main Street, City, Country.</p>
+            <p class="contact-address">Contact us at: +1 (123) 456-7890</p>
+        </div>
+    </main>
+</body>
+</html>
